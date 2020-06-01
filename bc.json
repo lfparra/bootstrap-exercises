@@ -1,10 +1,111 @@
 {
-  "title": "Learn Bootstrap Tutorial",
-  "description": "A complete tutorial list of small targeted exercises that will show the most usefull things you need to learn about bootstrap",
-  "language": "css",
-  "duration": 8,
-  "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
-  "difficulty": "easy",
-  "video-solutions": false,
-  "graded": true
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": {},
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": "open-browser",
+    "language": "css",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
+    "title": "Learn Bootstrap Tutorial",
+    "description": "A complete tutorial list of small targeted exercises that will show the most usefull things you need to learn about bootstrap",
+    "duration": 8,
+    "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
+    "difficulty": "easy",
+    "video-solutions": false,
+    "graded": true,
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "00-Welcome",
+            "title": "00-Welcome",
+            "path": "exercises/00-Welcome",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01-Add-Bootstrap-To-Your-Website",
+            "title": "01-Add-Bootstrap-To-Your-Website",
+            "path": "exercises/01-Add-Bootstrap-To-Your-Website",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "02-Bootstrap-Skeleton",
+            "title": "02-Bootstrap-Skeleton",
+            "path": "exercises/02-Bootstrap-Skeleton",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03-Bootstrap-Grid",
+            "title": "03-Bootstrap-Grid",
+            "path": "exercises/03-Bootstrap-Grid",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "04-Navbar",
+            "title": "04-Navbar",
+            "path": "exercises/04-Navbar",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "05-Sidebar-With-Menu",
+            "title": "05-Sidebar-With-Menu",
+            "path": "exercises/05-Sidebar-With-Menu",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "06-Jumbotron-And-Three-Boxes",
+            "title": "06-Jumbotron-And-Three-Boxes",
+            "path": "exercises/06-Jumbotron-And-Three-Boxes",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "07-Buttons-Alert-Glyphicon-And-Table",
+            "title": "07-Buttons-Alert-Glyphicon-And-Table",
+            "path": "exercises/07-Buttons-Alert-Glyphicon-And-Table",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "08-Bootstrap-Forms",
+            "title": "08-Bootstrap-Forms",
+            "path": "exercises/08-Bootstrap-Forms",
+            "translations": [
+                "es",
+                "us"
+            ]
+        }
+    ]
 }
